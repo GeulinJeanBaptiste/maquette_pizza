@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "amatisc";
+  src: url(../font/amaticsc.woff2);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "amatisc", sans-serif;
+}
+header {
+  position: relative;
+}
+header nav {
+  display: flex;
+  align-items: start;
+  position: absolute;
+  justify-content: space-evenly;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+#check:checked ~ ul {
+  display: flex;
+}
+#check {
+  display: none;
+}
+#menu {
+  display: none;
+  list-style-type: none;
+}
+#block1 {
+  background-image: url(../img/pizza.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#block1 h1,
+h2 {
+  color: white;
+}
+#block1 .horaire {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: black;
+  color: white;
+}
+.letme {
+  background-color: black;
+  color: white;
+  font-size: 150%;
+}
+#block2 h2 {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  font-size: 350%;
+}
+#block2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+#borderblock2 {
+  border: 0.01px solid rgba(105, 105, 105, 0.795);
+  width: 95%;
+}
+#block2 h4,
+p {
+  background-color: white;
+}
+
+.themenu {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-size: 250%;
+}
+#pizza h4 {
+  font-size: 200%;
+  padding: 0.5rem;
+}
+#pizza p {
+  font-size: 150%;
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid rgba(128, 128, 128, 0.192);
+}
+.spancolor,
+.pizzared {
+  background-color: red;
+}
+.spancolor2 {
+  background-color: grey;
+}
+#pizza h4 {
+  display: flex;
+  justify-content: space-between;
+}
+.spantarif {
+  background-color: grey;
+}
+
+#chef {
+  width: 50%;
+}
+
+#block3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(109, 71, 71);
+  color: white;
+}
+#block3 p {
+  background-color: rgb(109, 71, 71);
+  font-size: 140%;
+}
+#block3 h3 {
+  font-size: 300%;
+  padding: 2rem;
+  font-size: 350%;
+}
+#borderblock3 {
+  width: 95%;
+}
+#onepage img {
+  width: 100%;
+}
+.openhour {
+  font-size: 200%;
+}
+#openinghour {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 130%;
+}
+
+/* #paragraphechef {
+  display: flex;
+}
+#paragraphechefh4{
+    width: 60%;
+
+}
+#paragraphechefimg{
+    width: 40%;
+} */
+#openinghour p {
+  padding: 1rem;
+}
+#chef {
+  clip-path: ellipse(41% 41% at 50% 50%);
+}
+#block4 {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+#block4 img {
+  width: 100%;
+}
+#contact{
+    color: white;
+    font-size: 200%;
+}
+#block4 p{
+    background-color: grey;
+    color: white;
+}
