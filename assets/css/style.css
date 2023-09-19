@@ -153,21 +153,23 @@ p {
 
 #paragraphechef {
   display: flex;
+  height: 160px;
+  width: 100%;
 }
 
 .paragraphechefh4{
-  display: flex;
-  width: 300%;
   flex-direction: column;
-} 
-/* 
-#paragraphechefh4{
-    width: 60%;
-
+  justify-content: space-evenly;
+  width: 60%;
+  font-size: 150%;
 }
-#paragraphechefimg{
-    width: 40%;
-} */
+.paragraphechefimg{
+  display: flex;
+  justify-content: flex-end;
+}
+#paragraphechefh4{
+    width: 70%;
+}
 #openinghour p {
   padding: 1rem;
 }
