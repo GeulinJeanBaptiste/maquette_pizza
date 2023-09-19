@@ -147,7 +147,7 @@ p {
 }
 #openinghour {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-size: 130%;
 }
 
@@ -157,18 +157,18 @@ p {
   width: 100%;
 }
 
-.paragraphechefh4{
+.paragraphechefh4 {
   flex-direction: column;
   justify-content: space-evenly;
   width: 60%;
   font-size: 150%;
 }
-.paragraphechefimg{
+.paragraphechefimg {
   display: flex;
   justify-content: flex-end;
 }
-#paragraphechefh4{
-    width: 70%;
+#paragraphechefh4 {
+  width: 70%;
 }
 #openinghour p {
   padding: 1rem;
@@ -180,7 +180,11 @@ p {
   background-color: grey;
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
+}
+#borderblock4 {
+  width: 95%;
 }
 #block4 img {
   width: 100%;
@@ -196,20 +200,20 @@ p {
   margin: auto;
   font-size: 150%;
 }
-#block4 h4{
+#block4 h4 {
   width: 90%;
   margin: auto;
   padding: 2rem;
   justify-content: center;
 }
-#block4 h4{
+#block4 h4 {
   display: flex;
 }
-#block4 .fyi{
+#block4 .fyi {
   background-color: black;
   color: white;
 }
-#block4 .reserve{
+#block4 .reserve {
   font-weight: 800;
 }
 #formulaire div {
@@ -217,7 +221,7 @@ p {
   margin: auto;
   padding: 0.4rem;
 }
-#formulaire input{
+#formulaire input {
   height: 30px;
 }
 #sendmessage {
@@ -237,21 +241,18 @@ footer p {
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 576px) {
-  #block1 h1, h2{
+  #block1 h1,
+  h2 {
     font-size: 400%;
   }
-  #block1 .letme{
+  #block1 .letme {
     font-size: 200%;
   }
-  #block1 .horaire{
+  #block1 .horaire {
     font-size: 150%;
   }
-  #borderblock2 {
-    width: 80%;
-  }
-  #borderblock3 {
-    width: 80%;
-  }
+  #borderblock2,
+  #borderblock3,
   #borderblock4 {
     width: 80%;
   }
